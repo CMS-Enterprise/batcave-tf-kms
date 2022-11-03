@@ -28,3 +28,7 @@ variable "enable_key_rotation" {
 variable "multi_region" {
   default = "false"
 }
+
+variable "alias" {
+  default = "alias/batcave-landing-sops"
+}
