@@ -9,7 +9,7 @@ resource "aws_kms_key" "this" {
   is_enabled               = var.is_enabled
   enable_key_rotation      = var.enable_key_rotation
   multi_region             = var.multi_region
-  tags                     = {
+  tags = {
     Name = var.name
   }
 }
